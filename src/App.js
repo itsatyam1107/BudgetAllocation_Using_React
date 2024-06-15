@@ -150,7 +150,7 @@ const App = () => {
 
     setAllocations((prevAllocations) => ({
       ...prevAllocations,
-      [department]: (prevAllocations[department] || 0) ,
+      [department]: (prevAllocations[department] || 0) + value,
     }));
   }
 };
